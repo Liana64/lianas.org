@@ -16,6 +16,51 @@
   --toc-border: #aaa;
 }
 
+@font-face {
+  font-family: Berkeley Mono;
+  src:
+    local("Berkeley Mono"),
+    local("BerkeleyMono"),
+    url(/assets/fonts/BerkeleyMono/BerkeleyMono-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: Berkeley Mono;
+  src:
+    local("Berkeley Mono"),
+    local("BerkeleyMono"),
+    url(/assets/fonts/BerkeleyMono/BerkeleyMono-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: Berkeley Mono;
+  src:
+    local("Berkeley Mono"),
+    local("BerkeleyMono"),
+    url(/assets/fonts/BerkeleyMono/BerkeleyMono-Italic.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: Berkeley Mono;
+  src:
+    local("Berkeley Mono"),
+    local("BerkeleyMono"),
+    url(/assets/fonts/BerkeleyMono/BerkeleyMono-BoldItalic.woff2)
+      format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: fallback;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --complimentary: #815205;
@@ -64,6 +109,7 @@ body {
   margin: auto;
   padding: 0em 1em 2em 1em;
   font-family:
+    "Berkeley Mono",
     "Inter",
     -apple-system,
     BlinkMacSystemFont,
